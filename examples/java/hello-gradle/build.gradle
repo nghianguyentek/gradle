@@ -1,0 +1,10 @@
+plugins {
+    id('application')
+}
+
+application {
+    mainClass = 'HelloGradle'
+}
+
+group = 'vn.kihon.gradle.java.examples'
+version = '0.0.1'
