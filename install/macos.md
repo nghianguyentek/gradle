@@ -1,6 +1,6 @@
 # Installing Gradle On Windows
 
-In PowerShell,
+In Terminal,
 
 ## 1. Change to the directory where you want to place Gradle.
 
@@ -11,24 +11,37 @@ cd ~/.gradle
 ## 2. Download Gradle binary package
 
 ```shell
-$ProgressPreference = 'SilentlyContinue'
-wget https://services.gradle.org/distributions/gradle-8.5-bin.zip -O gradle-8.5-bin.zip
-$ProgressPreference = 'Continue'
+wget -o gradle-8.5-bin.zip https://services.gradle.org/distributions/gradle-8.5-bin.zip
 ```
 
 ## 3. Unzip the download package
 
 ```shell
-Expand-Archive gradle-8.5-bin.zip
-mv gradle-8.5-bin gradle-8.5
+unzip gradle-8.5-bin.zip.1
 ```
 
 ## 4. Add Gradle to the `PATH` environment variable
 
+- Open zsh configuration
+
 ```shell
-[Environment]::SetEnvironmentVariable("PATH", $env:path + "~/.gradle/gradle-8.5/bin", "User")
-$env:path = [Environment]::GetEnvironmentVariable("PATH", "User")
+vim ~/.zshrc
 ```
+
+- Add the path of the `bin` directory of Gradle into the `PATH` environment variable
+
+```shell
+export PATH=$PATH:~/.gradle/gradle-8.5/bin
+```
+
+- Reload zsh configuration and exit the current session
+
+```shell
+source ~/.zshrc
+exit
+```
+
+- qOpen a new Terminal session
 
 ## 5. Verify installation
 
@@ -58,5 +71,5 @@ OS:           Windows 11 10.0 amd64
 ## 6. Remove unused files (optional)
 
 ```shell
-rm gradle-8.5-bin gradle-8.5-bin.zip
+rm gradle-8.5-bin.zip*
 ```

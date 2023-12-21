@@ -10,3 +10,4 @@ Android Studio contains Gradle, so if you use it, you already have Gradle.
 ## Installation
 
 - [On Windows](windows.md)
+- [On macOS](macos.md)
