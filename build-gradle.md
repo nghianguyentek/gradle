@@ -9,9 +9,7 @@ It is a (Groovy) script file.
 
 ## Examples
 
-### Java
-
-#### Run an application
+### A simple application (without dependencies)
 
 `build.gradle`
 
@@ -34,9 +32,9 @@ version = '0.0.1'
 gradle run
 ```
 
-Check the full source at [Hello Gradle project](examples/java/hello-gradle)
+Check the full source at [Hello Gradle example](examples/hello-gradle)
 
-#### Add tests with JUnit5
+### An application using JUnit testing platform
 
 ```groovy
 plugins {
@@ -71,4 +69,4 @@ version = '0.0.1'
 gradle test
 ```
 
-Check the full source at [Test with JUnit project](examples/java/test-with-junit)
+Check the full source at [Testing with JUnit example](examples/test-with-junit)

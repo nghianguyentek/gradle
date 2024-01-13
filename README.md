@@ -7,7 +7,7 @@ It's an abbreviation of Gradle Build Tool, a build tool written by Java and Groo
 ## Why Gradle?
 
 - Open source (Apache License 2.0)
-- Support building Java (+ Android), JavaScript, and C/C++ projects
+- Support building Java (+ Android)
 - Supported by Android Studio, IntelliJ IDEA, Visual Studio Code IDEs.
 
 ## Overview
