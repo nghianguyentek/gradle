@@ -1,26 +1,28 @@
 # Installing Gradle On Windows
 
+## Steps
+
 In Terminal,
 
-## 1. Change to the directory where you want to place Gradle.
+### 1. Change to the directory where you want to place Gradle.
 
 ```shell
 cd ~/.gradle
 ```
 
-## 2. Download Gradle binary package
+### 2. Download Gradle binary package
 
 ```shell
 wget -o gradle-8.5-bin.zip https://services.gradle.org/distributions/gradle-8.5-bin.zip
 ```
 
-## 3. Unzip the download package
+### 3. Unzip the download package
 
 ```shell
 unzip gradle-8.5-bin.zip.1
 ```
 
-## 4. Add Gradle to the `PATH` environment variable
+### 4. Add Gradle to the `PATH` environment variable
 
 - Open zsh configuration
 
@@ -43,7 +45,7 @@ exit
 
 - qOpen a new Terminal session
 
-## 5. Verify installation
+### 5. Verify installation
 
 ```shell
 gradle -v
@@ -68,7 +70,7 @@ OS:           Windows 11 10.0 amd64
 
 ```
 
-## 6. Remove unused files (optional)
+### 6. Remove unused files (optional)
 
 ```shell
 rm gradle-8.5-bin.zip*
