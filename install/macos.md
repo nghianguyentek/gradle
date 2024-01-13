@@ -43,7 +43,7 @@ source ~/.zshrc
 exit
 ```
 
-- qOpen a new Terminal session
+- Open a new Terminal session
 
 ### 5. Verify installation
 
