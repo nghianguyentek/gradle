@@ -2,7 +2,7 @@
 
 In PowerShell,
 
-## 1. Change to the directory where you want to place Gradle.
+## 1. Change to the directory where you want to place Gradle
 
 ```shell
 cd ~/.gradle
@@ -60,3 +60,7 @@ OS:           Windows 11 10.0 amd64
 ```shell
 rm gradle-8.5-bin gradle-8.5-bin.zip
 ```
+
+## See also
+
+- [Install Gradle on macOS](macos.md)

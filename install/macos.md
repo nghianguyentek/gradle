@@ -73,3 +73,7 @@ OS:           Windows 11 10.0 amd64
 ```shell
 rm gradle-8.5-bin.zip*
 ```
+
+## See also
+
+- [Install Gradle on Windows](windows.md)

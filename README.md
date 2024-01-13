@@ -33,6 +33,6 @@ It's an abbreviation of Gradle Build Tool, a build tool written by Java and Groo
 ## Next
 
 - [Installing Gradle](install/README.md)
+- [`build.gradle` file](build-gradle.md)
 - [`gradle` command](gradle-command.md)
 - [`settings.gradle` file](settings-gradle.md)
-- [`build.gradle` file](build-gradle.md)
