@@ -8,10 +8,10 @@
 ## Example
 
 ```text
-rootProject.name = "my-project"
+rootProject.name = 'my-project'
 
-include("subprojectA")
-include("subprojectB")
+include('subprojectA')
+include('subprojectB')
 ```
 
 ## See also

@@ -1,0 +1,4 @@
+rootProject.name = 'with-aspectj'
+
+include('calculator-aop')
+include('calculator')
